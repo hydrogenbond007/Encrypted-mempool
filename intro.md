@@ -2,7 +2,7 @@
 
 Choose a homomorphic encryption scheme: To implement an [encrypted mempool](https://www.youtube.com/watch?v=fHDjgFcha0M&list=WL&index=1)  on Solana, you will first need to choose a homomorphic encryption scheme that is well-suited to the types of computations that will be performed on the encrypted data. Some possible options include the Paillier cryptosystem, the BGV scheme, or the CKKS scheme.
 
-Encrypt transactions as they are added to the mempool: When a transaction is submitted to the mempool, it should be encrypted using the chosen homomorphic encryption scheme. This will require generating a public key that can be used to encrypt the transaction.
+Encrypt transactions as they are added to the mempool: When a transaction is submitted to the mempool, it should be encrypted using the chosen homomorphic encryption scheme. This will require generating a public key that can be used to encrypt the transaction or a system of decentralized sequencer could use [this](https://0x0000.app/2023/01/22/solana-accounts-db.html) 
 
 Store the encrypted transactions in a database: Encrypted transactions should be stored in a database that is optimized for efficient search and retrieval. Solana's built-in database, called "RocksDB", may be suitable for this purpose.
 
