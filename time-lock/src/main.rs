@@ -1,7 +1,7 @@
 extern crate crypto;
 extern crate tlock_age;
 
-
+use drand_core::*;
 use crypto::digest::Digest;
 use crypto::sha2::Sha256;
 use std::time::{Duration, SystemTime};
