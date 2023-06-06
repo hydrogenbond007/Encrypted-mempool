@@ -35,5 +35,6 @@ async fn main() {
     let decrypted = std::str::from_utf8(&decrypted).unwrap();
 
     println!("{decrypted}");
+    // decrypts the encryted message after the lock time
 }
 
